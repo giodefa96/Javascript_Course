@@ -19,3 +19,5 @@ console.log(petCat + " Says " + catSound)
 var catSound = 'meow'
 
 console.log(petCat + " Says " + catSound)
+
+console.log("ciao" + 7)
