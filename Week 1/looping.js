@@ -3,7 +3,7 @@ tre paramentri da settare
 
 for(var i=0; i<3; i++;) dove
 var i=0 definisco il valore del counter iniziale
-i<3 defnisco la condizione di stop
+i<3 finchè true continua!!!!
 i++ la funzione incrementale che devo settare
 
 */
