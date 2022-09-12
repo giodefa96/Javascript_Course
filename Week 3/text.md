@@ -71,9 +71,12 @@ però se dichiaro la stessa variabile in scope diversi non avrò problemi! è un
 mentre con cost al contrario che con let non posso ridichiarare 
 
 
-`    const greeting = "say Hi"; `
- `   greeting = "say Hello instead";// error: Assignment to constant variable. `
+    const greeting = "say Hi"; `
+    greeting = "say Hello instead";// error: Assignment to constant variable. `
 
 
     const greeting = "say Hi";
     const greeting = "say Hello instead";// error: Identifier 'greeting' has already been declared
+
+
+Importante è poi che con CONST bisogna assegnare il valore subito dopo aver dichiarato una variabile!!!
